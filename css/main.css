@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+.hidden {
+    display: none;
+}
+.sitecontainer{
+    max-width: 100%;
+  }
+body{
+  font-family: Arial, Helvetica sans-serif;
+}
+
+h2{
+font-size: 1.23vw;
+font-weight: 400;
+}
+h3{
+  font-size: 4.5vw;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 3vw;
+}
+#active{
+  text-decoration: underline;
+}
+	/* ----------------------------------------------------------MOBILE START ---------------------------------------------------*/
+	.ncontent{
+	  max-width: 100%;
+		max-height: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 2em;
+		background-color: #000000;
+	  	}
+.ncontent img{
+  max-width: 30%;
+}
+	  	#mainnav button
+	  	{
+	  		background: url(../images/menulogo.png) center no-repeat;
+        background-size: 20px 20px;
+	  		height: 20px;
+	  		width: 20px;
+	  		border: 2px;
+				border-color: #000000;
+	  		transition: all 300ms ease;
+	  	}
+
+	  	#mainnav button.expanded
+	  	{
+	  		transform: rotate(90deg);
+	  	}
+
+	  	#mainnav ul li {
+	  		margin-top: 5px;
+	  	}
+
+	  	#mainnav li a
+	  	{
+	  		display: block;
+	  		color: #000000;
+	  		padding: 20px 0 20px 0;
+	  		text-align: center;
+	  		width: 100%;
+				text-decoration: none;
+	  	}
+	  	#menucontent
+	  	{
+	  		display: none;
+	  	}
+
+	  	#menucontent.slideToggle
+	  	{
+	  		display: block;
+	  	}
+
+	  	#hamburgermenu{
+	  		display: flex;
+	  		flex-direction: column;
+	  		align-items: center;
+	  	}
+
+/* ----------------------------------------------------------NAV START -------------------------------------------------*/
+	.mainnav{
+	    flex-direction: column;
+	    position: sticky;
+	    top: 0px;
+	  }
+	#menu{
+	  display: block;
+	  position: absolute;
+	  width: 30px;
+	  height: 30px;
+	  margin-top: 20px;
+	  right: 20px;
+	}
+
+	.mainnav ul li{
+	  list-style-type: none;
+	  display: block;
+	  margin-top: 40px;
+	  padding:10px;
+	  display: none;
+	  margin-right: 30px;
+	}
+
+  #mainnav a:hover{
+    color: red;
+    transform: scale(1.25);
+    transition: 2s ease;
+  }
+	/* ----------------------------------------------------------NAV END -------------------------------------------------*/
+
+/* ---------------------------------------------------------CONTACT START ---------------------------------------------------*/
+.contactform{
+	margin-top: 25px;
+  background-color: grey;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 25px 10px 25px 10px;
+}
+.contactform form{
+	justify-content: space-around;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.contactform h3, p{
+  margin-left: 2vh;
+}
+input[type=text], select, textarea, #submit {
+	display: flex;
+  width: 70%;
+	justify-content: center;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+#submit{
+	min-width: 20%;
+}
+
+/* ----------------------------------------------------------CONTACT END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------ABOUT US START ---------------------------------------------------*/
+
+/* ----------------------------------------------------------ABOUT US END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------FOOTER MOBILE START -------------------------------------------------*/
+.footernav ul li{
+	display: none;
+}
+.mainfooter{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+max-width: 100%;
+height: 50px;
+background-color: #000000;
+}
+/* ----------------------------------------------------------FOOTER END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------TABLET AND WEB START ---------------------------------------------------*/
+@media only screen and (min-width:700px) {
+  h2{
+  font-size: 5vw;
+  }
+  h3{
+    font-size: 4vw;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 1.5vw;
+  }
+
+.ncontent button{
+	display: none;
+}
+
+.ncontent img{
+  max-width: 100%;
+}
+
+.ncontent{
+	max-width: 100%;
+  justify-content: center;
+  background-color: #fff;
+}
+.ncontent img{
+  max-height: 150px;
+}
+#menucontent{
+	display: contents;
+
+}
+
+.mainnav{
+	display: flex;
+	flex-direction: column;
+}
+#hamburgermenu{
+	display: flex;
+	flex-direction: row;
+  justify-content: space-around;
+  background-color: #000000;
+  margin-top: 25px;
+}
+
+#mainnav li a{
+  color: #fff;
+}
+
+#mainnav a:hover{
+  color: red;
+  transition: 2s ease;
+}
+
+
+
+}

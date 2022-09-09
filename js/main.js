@@ -20,10 +20,10 @@
 
 	const introContent = [
     [`Forest City Designs`, `Founded in 2022 during orientation week`],
-		[`Brody Billings`, `Hello, My name is Brody Billings. Some of my hobies include Mountain Biking, Formula 1 and video games. Preey simple`],
+		[`Brody Billings`, `Hello, My name is Brody Billings. Some of my hobbies include Mountain Biking, Formula 1 and video games. Preey simple`],
 		[`Roy Chan`, `Roy Bio`],
 		[`Laura Albarracin`, `Laura Bio`],
-		[`Leslie Deshaw`, `Leslie Bio`]
+		[`Leslie DeShaw`, `Hello! I'm Leslie DeShaw. I'm a London based designer with a focus on bring fun back to design, using bright colours and unique fonts. My passion is in brand development and content creation.`]
 	];
 
 	function slideBanner(event) {

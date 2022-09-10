@@ -1,3 +1,4 @@
+
 (()=>{
 	const button = document.querySelector("#button");
 	const menu = document.querySelector("#menucontent");

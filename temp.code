@@ -1,0 +1,5 @@
+ <picture>
+                      <source media="(min-width:700px)" srcset="../group_1_Bootcamp/images/hero-port-large.png">
+                      <source media="(min-width:465px)" srcset="../group_1_Bootcamp/images/hero-port-small.png">
+                      <img src="../group_1_Bootcamp/images/hero-port-img480.png" alt="hero-img" height="30%">
+                  </picture>

@@ -35,66 +35,58 @@
         <div class="hero">
           <div class="hero-img">
               <picture>
-                
+
                 <img src="images/Feauture_banner.png" alt="Banner">
 
               </picture>
           </div>
       </div>
         <div class="container_vid">
+          <h2 class="hidden">Promo Video</h2>
             <video controls id="video1" width="620">
               <source src="./images/Motion_Design_Updated.mp4" type="video/mp4">
             </video>
 
              </div>
-            <div class="container_but"> 
-              <button onclick="playPause()">Play/Pause</button> 
+            <div class="container_but">
+              <button onclick="playPause()">Play/Pause</button>
               <button onclick="makeBig()">Big</button>
               <button onclick="makeSmall()">Small</button>
               <br><br>
-          </div>  
-        </div>
-        
-        <script> 
-        var myVideo = document.getElementById("video1"); 
-        
-        function playPause() { 
-          if (myVideo.paused) 
-            myVideo.play(); 
-          else 
-            myVideo.pause(); 
-        } 
-        
-        function makeBig() { 
-            myVideo.width = 760; 
-        } 
-        
-        function makeSmall() { 
-            myVideo.width = 320; 
-        } 
-        
-        </script> 
-        
-        
-        </body> 
+          </div>
+
+        <script>
+        var myVideo = document.getElementById("video1");
+
+        function playPause() {
+          if (myVideo.paused)
+            myVideo.play();
+          else
+            myVideo.pause();
+        }
+
+        function makeBig() {
+            myVideo.width = 760;
+        }
+
+        function makeSmall() {
+            myVideo.width = 320;
+        }
+
+        </script>
 
 
         <footer class="mainfooter">
-          <h2 class="hidden">Footer</h2>
-          <nav class="footernav">
-            <h3 class="hidden"> Footer Nav</h3>
-            <div class="one-item">
-              <h3 class="hidden">Logo Footer</h3>
-              <img src="images/logo-white.svg" height="250px" width="250px">
-        </div>
-        <div class="textFoot">
-            <p>©Forest City Design<br>
-              London, Ontario <br> 
-            </p>
-        </div>
-            
-
-          </nav>
-      </footer>
+            <h2 class="hidden">Footer</h2>
+            <nav class="footernav">
+              <h3 class="hidden"> Footer Nav</h3>
+              <img id="logow" src="images/logo-white.svg" alt="Logo in white">
+          <div class="textFoot">
+              <p>©Forest City Design<br>
+                London, Ontario <br>
+              </p>
+          </div>
+            </nav>
+        </footer>
 		<script src="js/main.js"></script>
   </body>

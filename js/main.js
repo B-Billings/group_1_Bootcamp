@@ -11,9 +11,7 @@
 
 
 	button.addEventListener("click", compactmenu);
-})();
 
-(()=>{
 	const TheList = document.querySelector("#teammembers"),
 			pictures = document.querySelector(".personpictures"),
 			person = document.querySelector(".textarea h2"),
@@ -21,7 +19,7 @@
 
 	const introContent = [
     [`Forest City Designs`, `Founded in 2022 during orientation week`],
-		[`Brody Billings`, `Hello, My name is Brody Billings. Some of my hobbies include Mountain Biking, Formula 1 and video games. Preey simple`],
+		[`Brody Billings`, `Hello, My name is Brody Billings. A second year student at Fanshawe with a large interest in the Digital Media field, possibly looking into going into Digital Media Marketing as a future career`],
 		[`Roy Chan`, `Hello! I am Roy, I am a big fan of the digital world, learning to code and designing are always exciting to me  `],
 		[`Laura Albarracin`, `Hello! I am Laura, I worked for 8 years in Business Communications, it helped me to realize that the world is turning digital, so, now I am learning to code`],
 		[`Leslie DeShaw`, `Hello! I'm Leslie DeShaw. I'm a London based designer with a focus on bring fun back to design, using bright colours and unique fonts. My passion is in brand development and content creation.`]
@@ -45,7 +43,7 @@
 	function changeText(event) {
 		personbio(introContent[event.target.dataset.offset][0],
 						introContent[event.target.dataset.offset][1]);
-						console.log("Text Changed");
+						console.log("Bio Changed");
 	}
 
 

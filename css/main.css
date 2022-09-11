@@ -110,7 +110,14 @@ button{
 	  		display: flex;
 	  		flex-direction: column;
 	  		align-items: center;
+			background-color: #78A884;
+			
 	  	}
+
+			
+			
+	
+	
 
 /* ----------------------------------------------------------NAV START -------------------------------------------------*/
 	.mainnav{
@@ -138,7 +145,7 @@ button{
 	}
 
   #mainnav a:hover{
-    color: red;
+    color: rgb(57, 53, 53);
     transform: scale(1.25);
     transition: 2s ease;
   }
@@ -149,12 +156,14 @@ button{
 
 	.container{
 		display: flex;
-		background-color:#195040;
+		background-color:#689072;
 		color: #fff;
 		margin: 2em 1em 2em 1em;
 		justify-content:left;
 		padding: 3em;
 		align-items:center; 
+		font-size: 1vw;
+		
 	}
 	
 	.component1{
@@ -181,6 +190,10 @@ button{
 	.component3{
 		flex: 40%;
 	}
+
+	.component1 img {width: 250px;
+	background-color: #fff; 
+padding: 10px;}
 	
 	.paragraph_{
 		display: flex;
@@ -244,20 +257,32 @@ button{
 	  .container_por{
 		display: flex;
 		flex-direction: row;
-		background-color: rgb(0, 48, 37);
+		background-color:#53725b;
 		color: #fff;
-		margin: 2em 1em 2em 1em;
+	
 		/*justify-content:left;*/
-		padding: 3em;
+
 		align-items:center; 
-		padding-left: 16%;
+		padding-left: 10%;
+		
+		
+	}
+	.port{
+		font-size: 40px;
+		padding-left: 13px;
+		padding-top: 13px;
+		padding-bottom: 13px;
 	}
 	
 	.container_por_col{
 		display: flex;
 		flex-direction: column;
 	}
-
+	.container_por img {
+		max-width: 100%;	
+		
+		
+	}
 	.container_vid{
 		display: flex;
 		flex-direction: row;
@@ -267,7 +292,9 @@ button{
 		padding: 3em;
 		align-items:center; 
 		padding-left: 26%;
+		
 	}
+	.container_vid video {width:100%;}
 
 
 /* ---------------------------------------------------------CONTACT START ---------------------------------------------------*/
@@ -325,7 +352,7 @@ input[type=text], select, textarea, #submit {
   width:3000px;
 	position: relative;
 	transition: all 2s ease;
-  margin-right: 20px;
+  margin-right: 20px;	
 }
 
 .about{
@@ -334,11 +361,13 @@ input[type=text], select, textarea, #submit {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
 }
 
 .about h2, p{
   display: block;
   align-items: center;
+
 }
 
 .textarea h2{
@@ -431,7 +460,7 @@ background-color: #78A884;
 }
 
 #mainnav a:hover{
-  color: red;
+  color: rgb(57, 53, 53);
   transition: 2s ease;
 }
 
@@ -485,9 +514,11 @@ color: #fff;
 }
 
 #mainnav a:hover{
-color: red;
+color: rgb(57, 53, 53);
 transition: 2s ease;
 }
+
+
 
 /* ----------------------------------------------------------ABOUT START ---------------------------------------------------*/
 

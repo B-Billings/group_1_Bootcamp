@@ -22,7 +22,7 @@
 	const introContent = [
     [`Forest City Designs`, `Founded in 2022 during orientation week`],
 		[`Brody Billings`, `Hello, My name is Brody Billings. Some of my hobbies include Mountain Biking, Formula 1 and video games. Preey simple`],
-		[`Roy Chan`, `Roy Bio`],
+		[`Roy Chan`, `Hello! I am Roy, I am a big fan of the digital world, learning to code and designing are always exciting to me  `],
 		[`Laura Albarracin`, `Hello! I am Laura, I worked for 8 years in Business Communications, it helped me to realize that the world is turning digital, so, now I am learning to code`],
 		[`Leslie DeShaw`, `Hello! I'm Leslie DeShaw. I'm a London based designer with a focus on bring fun back to design, using bright colours and unique fonts. My passion is in brand development and content creation.`]
 	];
